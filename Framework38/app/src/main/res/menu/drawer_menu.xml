@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_Homepage"
+            android:icon="@drawable/ic_homepage"
+            android:title="Homepage" />
+
+        <item android:id="@+id/nav_TopTeams"
+            android:icon="@drawable/ic_topteams"
+            android:title="Top Teams" />
+
+        <item android:id="@+id/nav_Results"
+            android:icon="@drawable/ic_results"
+            android:title="Results" />
+
+        <item android:id="@+id/nav_Fixtures"
+            android:icon="@drawable/ic_fixtures"
+            android:title="Fixtures" />
+
+        <item android:id="@+id/nav_FavouriteTeam"
+            android:icon="@drawable/ic_favouriteteam"
+            android:title="Favourite Team" />
+    </group>
+</menu>
